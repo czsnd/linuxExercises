@@ -11,5 +11,6 @@ function rm_n {
     echo $(find ./$dir -type 'f' -size -${file_size}c -delete)    
 }
 
+#create  the function rm_n
 rm_n $dir $file_size
 
