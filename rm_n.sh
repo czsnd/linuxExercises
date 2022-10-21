@@ -8,8 +8,8 @@ if [[ $# -ne 2 ]]; then
 fi
 function rm_n {
 
-    echo $(find ./$dir -type 'f' -size -${file_size}c -delete)
-    
+    echo $(find ./$dir -type 'f' -size -${file_size}c -delete)    
 }
+
 rm_n $dir $file_size
 
